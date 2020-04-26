@@ -33,20 +33,3 @@ words = model.wv.vocab                     # words used
 vector = model.wv['global']                 # 'global' word vector generation
 similar = model.wv.most_similar('global')    # checking similar words to global
 print(similar)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
